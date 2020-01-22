@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/chatroom/static/css/main.d1b05096.chunk.css",
-    "main.js": "/chatroom/static/js/main.9d593ea4.chunk.js",
-    "main.js.map": "/chatroom/static/js/main.9d593ea4.chunk.js.map",
-    "runtime-main.js": "/chatroom/static/js/runtime-main.d2cecce7.js",
-    "runtime-main.js.map": "/chatroom/static/js/runtime-main.d2cecce7.js.map",
-    "static/js/2.131e5394.chunk.js": "/chatroom/static/js/2.131e5394.chunk.js",
-    "static/js/2.131e5394.chunk.js.map": "/chatroom/static/js/2.131e5394.chunk.js.map",
-    "index.html": "/chatroom/index.html",
-    "precache-manifest.f4d07d0c41f3d5d169ab1fc440fe637c.js": "/chatroom/precache-manifest.f4d07d0c41f3d5d169ab1fc440fe637c.js",
-    "service-worker.js": "/chatroom/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/chatroom/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.131e5394.chunk.js.LICENSE": "/chatroom/static/js/2.131e5394.chunk.js.LICENSE",
-    "static/media/logo.svg": "/chatroom/static/media/logo.5d5d9eef.svg"
+    "main.css": "/chat-room-app/static/css/main.d1b05096.chunk.css",
+    "main.js": "/chat-room-app/static/js/main.1bb915f7.chunk.js",
+    "main.js.map": "/chat-room-app/static/js/main.1bb915f7.chunk.js.map",
+    "runtime-main.js": "/chat-room-app/static/js/runtime-main.39ba04cf.js",
+    "runtime-main.js.map": "/chat-room-app/static/js/runtime-main.39ba04cf.js.map",
+    "static/js/2.131e5394.chunk.js": "/chat-room-app/static/js/2.131e5394.chunk.js",
+    "static/js/2.131e5394.chunk.js.map": "/chat-room-app/static/js/2.131e5394.chunk.js.map",
+    "index.html": "/chat-room-app/index.html",
+    "precache-manifest.2645a685df58150bc6ef893c97229421.js": "/chat-room-app/precache-manifest.2645a685df58150bc6ef893c97229421.js",
+    "service-worker.js": "/chat-room-app/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/chat-room-app/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.131e5394.chunk.js.LICENSE": "/chat-room-app/static/js/2.131e5394.chunk.js.LICENSE",
+    "static/media/logo.svg": "/chat-room-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2cecce7.js",
+    "static/js/runtime-main.39ba04cf.js",
     "static/js/2.131e5394.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.9d593ea4.chunk.js"
+    "static/js/main.1bb915f7.chunk.js"
   ]
 }
