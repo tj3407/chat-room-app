@@ -32,7 +32,7 @@ const MyChat = () => {
 
     if (inputValue) {
       selectedUser.messages.unshift({
-        poster: "Jot",
+        poster: "Current User",
         message: inputValue,
         time: date.toLocaleString(undefined, {
           hour: "2-digit",
