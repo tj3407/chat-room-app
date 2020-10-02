@@ -5,10 +5,12 @@ import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import chatImage from "../../assets/undraw_work_chat_erdt.svg";
+import history from "../../history";
 
 const Header = () => {
   const handleClick = () => {
-    window.location.replace("/chat");
+    // window.location.replace("/chat");
+    history.push("/chat");
   };
 
   return (
@@ -49,7 +51,8 @@ const Header = () => {
 
 const MainContent = () => {
   const handleClick = () => {
-    window.location.replace("/chat");
+    // window.location.replace("/chat");
+    history.push("/chat");
   };
 
   return (
