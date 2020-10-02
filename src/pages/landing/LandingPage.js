@@ -24,7 +24,7 @@ const Header = () => {
       <Grid container justify="space-between" alignItems="center">
         <Grid item>
           <Typography display="inline" variant="h5">
-            <strong>MADCHATTER</strong>
+            <strong>MADCHATTR</strong>
           </Typography>
         </Grid>
         <Grid item>
