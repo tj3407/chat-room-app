@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.landing-page-navbar {
+  padding: 20px;
+
+  h5 {
+    letter-spacing: 3px;
+  }
+}
+
+.landing-page-content {
+  padding: 60px;
+  min-height: 100vh;
+  background-color: antiquewhite;
+  text-align: left;
+
+  h1 {
+    font-weight: bold;
+  }
+
+  :last-child {
+    padding-left: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
