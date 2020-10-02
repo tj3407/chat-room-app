@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import AppBar from "@material-ui/core/AppBar";
 import Button from "@material-ui/core/Button";
@@ -32,15 +33,17 @@ const Header = () => {
               <Button size="large">Sign In</Button>
             </Grid>
             <Grid item>
-              <Button
-                variant="contained"
-                size="large"
-                disableElevation
-                color="primary"
-                onClick={handleClick}
-              >
-                Try It Now
-              </Button>
+              <Link to="/chat">
+                <Button
+                    variant="contained"
+                    size="large"
+                    disableElevation
+                    color="primary"
+                    onClick={handleClick}
+                >
+                    Try It Now
+                </Button>
+              </Link>
             </Grid>
           </Grid>
         </Grid>
@@ -60,15 +63,17 @@ const MainContent = () => {
       <Grid item xs={12} sm={5} m={6}>
         <Typography variant="h1">A new way to chat</Typography>
         <Typography variant="h4">Collaborate with colleagues, friends, and others without missing a beat!</Typography>
-        <Button
-          size="large"
-          onClick={handleClick}
-          variant="contained"
-          disableElevation
-          color="primary"
-        >
-          Try It Now
-        </Button>
+        <Link to="/chat">
+            <Button
+            size="large"
+            onClick={handleClick}
+            variant="contained"
+            disableElevation
+            color="primary"
+            >
+            Try It Now
+            </Button>
+        </Link>
       </Grid>
       <Grid item xs={12} sm={7}>
         <img src={chatImage} height="550" alt="work chat" />
