@@ -3,10 +3,12 @@
 }
 
 .landing-page-navbar {
-  padding: 20px;
+  padding: 20px 60px;
 
   h5 {
     letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: bolder;
   }
 }
 
@@ -18,11 +20,21 @@
 
   h1 {
     font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    margin-bottom: 60px;
   }
 
   :last-child {
     padding-left: 20px;
   }
+}
+
+button {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

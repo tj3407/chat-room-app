@@ -7,6 +7,10 @@ import Typography from "@material-ui/core/Typography";
 import chatImage from "../../assets/undraw_work_chat_erdt.svg";
 
 const Header = () => {
+  const handleClick = () => {
+    window.location.replace("/chat");
+  };
+
   return (
     <AppBar
       position="static"
@@ -31,8 +35,9 @@ const Header = () => {
                 size="large"
                 disableElevation
                 color="primary"
+                onClick={handleClick}
               >
-                Try It
+                Try It Now
               </Button>
             </Grid>
           </Grid>
@@ -43,17 +48,31 @@ const Header = () => {
 };
 
 const MainContent = () => {
-    return (
-        <Grid container className="landing-page-content">
-            <Grid item xs={12} sm={5} m={6}>
-                <Typography variant="h1">A new way to chat</Typography>
-            </Grid>
-            <Grid item xs={12} sm={7}>
-                <img src={chatImage} height="550" alt="work chat" />
-            </Grid>
-        </Grid>
-    )
-}
+  const handleClick = () => {
+    window.location.replace("/chat");
+  };
+
+  return (
+    <Grid container className="landing-page-content">
+      <Grid item xs={12} sm={5} m={6}>
+        <Typography variant="h1">A new way to chat</Typography>
+        <Typography variant="h4">Collaborate with colleagues, friends, and others without missing a beat!</Typography>
+        <Button
+          size="large"
+          onClick={handleClick}
+          variant="contained"
+          disableElevation
+          color="primary"
+        >
+          Try It Now
+        </Button>
+      </Grid>
+      <Grid item xs={12} sm={7}>
+        <img src={chatImage} height="550" alt="work chat" />
+      </Grid>
+    </Grid>
+  );
+};
 
 const LandingPage = (props) => {
   return (
